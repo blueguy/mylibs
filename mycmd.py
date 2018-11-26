@@ -23,7 +23,7 @@ def cmd(command):
         result.stderr = err
         return result
 
-    except Exception as err
+    except Exception as err:
         result.exit = 254         # same as above
                                   # in my case, 254 is Unknown.
         result.stderr = err
